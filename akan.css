@@ -1,0 +1,24 @@
+html{
+    background-image: url(https://images.pexels.com/photos/5477848/pexels-photo-5477848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size:cover;
+}
+.mains{
+    color: white;
+    margin: 150px;
+}
+.name{
+    font-size: 80px;
+}
+.name1{
+    font-size: 25px;
+}
+.start{
+    background: transparent;
+    color: white;
+    border-style: solid;
+    width:250px;
+    padding: 20px;
+    /* border-width: thin; */
+    border-radius: 20px;
+    border-color: white;
+}
