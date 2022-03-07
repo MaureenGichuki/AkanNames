@@ -31,12 +31,10 @@ html{
     font-size: 40px;
     color:white;
 }
-#form{
-    font-size: 18px;
-    color:white
+.form{
+    padding-left: 50px;
 }
 .tell{
-    text-align: center;
     color: white;
     font-size: 20px;
 }
@@ -47,4 +45,44 @@ html{
 #result{
     color: white;
     font-size: 20px;
+}
+.bt2{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    color:white;
+    font-size: 15px;
+    font-weight: bolder;
+    display: block;
+}
+.lbl1{
+    color:white;
+    font-size: 18px;
+}
+.bttn{
+    color: white;
+    font-size: 18px;
+}
+#century{
+    height: 35px;
+    width: 20vw;
+    padding: 0 5px;
+}
+#year{
+    height: 35px;
+    width: 20vw;
+    padding: 0 5px;
+}
+#month{
+    height: 35px;
+    width: 20vw;
+    padding: 0 5px;
+}
+#day{
+    height: 35px;
+    width: 20vw;
+    padding: 0 5px;
 }
