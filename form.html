@@ -5,17 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="index.js"></script>
 </head>
 <body>
-    <form>
+    <p class="edit">
+        Akan names 
+    </p>
+    <form id = "form">
         <p class="name2">Select your Gender</p>
             <input type="radio" name="gender" value="male">Male<br>
             <input type="radio" name="gender" value="female">Female<br>
         <label for="start">Birthday:</label>
         <input type="date" id="start2"  name="start2">
         <br>
-        <button class="button" type="submit" value="Submit">Submit</button>
+        <button class="button" type="submit" onsubmit="getAkanName()" value="Submit">Submit</button>
+        <br>
+        <span id="akan"></span></p>
+        <span id="akan1"></span></p>
     </form>
+    <script src ="index.js"></script>
 </body>
 </html>
