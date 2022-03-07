@@ -27,3 +27,20 @@ html{
     color: white;
     display: block;
 }
+.edit{
+    font-size: 40px;
+    color:white;
+}
+#form{
+    font-size: 18px;
+    color:white
+}
+.tell{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.tell1{
+    color: white;
+    font-size: 20px;
+}
