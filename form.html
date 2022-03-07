@@ -39,18 +39,32 @@
             Friday: Afua<br>
             Saturday: Ama<br>
     </p>
-    <form id = "form">
-        <p class="name2">Select your Gender</p>
-            <input type="radio" name="gender" value="male">Male<br>
-            <input type="radio" name="gender" value="female">Female<br>
-        <label for="start">Birthday:</label>
-        <input type="date" id="start2"  name="start2">
-        <br>
-        <button class="button" type="submit" onsubmit="getAkanName()" value="Submit">Submit</button>
-        <br>
-        <span id="akan"></span></p>
-        <span id="akan1"></span></p>
-    </form>
+    <div class="form">
+        <div class="form1">
+                <div class="form2">
+                  <label for="century" class="lbl1">Century</label>
+                  <input type="number" class="lbl2" placeholder="Input example 10 " id="century" required  min="0" max="30">
+                </div>
+                <div class="form2">
+                  <label for="year" class="lbl1">Year</label>
+                  <input type="number" placeholder="Input Birth year example 2000" class="lbl2" id="year" required min="0" max="100">
+                </div>
+                <div class="form2">
+                  <label for="month" class="lbl1">Month</label>
+                  <input type="number" class="lbl2" placeholder="Input Month of the Year example April=4" id="month" required min="0" max="12">
+                </div>
+                <div class="form2">
+                  <label for="monthDay" class="lbl1">Day of month</label>
+                  <input type="number" placeholder="Input day of the month example 3" class="lbl2" id="day" required min="0" max="12">
+                </div>
+                <form class="bttn">
+                  <input type="radio" class="lbl1" value="male" id="bt1" name="gend" required>Male
+                  <input type="radio" class="lbl2" value="female" id="bt1" name="gend" required>Female
+                </form>
+                <br>
+                <button type="button" name="button" class="bt2" onclick="checkDayOfWeek();">Get Akan Name</button>
+                <p id="result"></p>
+                
     <script src ="index.js"></script>
 </body>
 </html>
